@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="117102" started-at="2019-02-28T10:36:22Z" finished-at="2019-02-28T10:38:19Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="117102" started-at="2019-02-28T10:36:22Z" finished-at="2019-02-28T10:38:19Z">
+      <class name="com.sample.Maven.WikiScript">
+        <test-method status="PASS" signature="setupSuite(java.lang.String)[pri:0, instance:com.sample.Maven.WikiScript@77cd7a0]" name="setupSuite" is-config="true" duration-ms="3785" started-at="2019-02-28T16:06:22Z" finished-at="2019-02-28T16:06:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:com.sample.Maven.WikiScript@77cd7a0]" name="execute" duration-ms="111056" started-at="2019-02-28T16:06:26Z" finished-at="2019-02-28T16:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="closedrive()[pri:0, instance:com.sample.Maven.WikiScript@77cd7a0]" name="closedrive" is-config="true" duration-ms="2237" started-at="2019-02-28T16:08:17Z" finished-at="2019-02-28T16:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedrive -->
+      </class> <!-- com.sample.Maven.WikiScript -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
